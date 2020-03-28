@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: Odometer
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 299.804 s <<< FAILURE! - in Odometer
+Database Verify(Odometer)  Time elapsed: 16.218 s  <<< ERROR!
+java.sql.SQLSyntaxErrorException: SELECT command denied to user 'qa_user'@'62.20.234.219' for table 'oro_ext_vehiclesodomete'
+

@@ -1,0 +1,856 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-28T08:20:52.265Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14926070899,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verify that truck driver should be able to see all vehicle odometer information on the grid",
+        "description": "",
+        "id": "odometer;verify-that-truck-driver-should-be-able-to-see-all-vehicle-odometer-information-on-the-grid",
+        "after": [
+          {
+            "result": {
+              "duration": 1238351300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10801434000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The Truck driver should be able to login valid credentials",
+            "match": {
+              "location": "Odometer.the_Truck_driver_should_be_able_to_login_valid_credentials()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1295552700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The Truck driver should be click Vehicle Odometer page under the Fleet",
+            "match": {
+              "location": "Odometer.the_Truck_driver_should_be_click_Vehicle_Odometer_page_under_the_Fleet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5710758199,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The Truck driver should be see all the vehicle odometers",
+            "match": {
+              "location": "Odometer.the_Truck_driver_should_be_see_all_the_vehicle_odometers()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Allnew"
+          },
+          {
+            "name": "@Odometer"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-28T08:21:26.255Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10673639300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 122600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUpDatabase()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Database Verify",
+        "description": "",
+        "id": "odometer;database-verify",
+        "after": [
+          {
+            "result": {
+              "duration": 38201799,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDownDatabase()"
+            }
+          },
+          {
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAALUCAYAAADg5mlPAAAAAXNSR0IArs4c6QAAFVZJREFUeJzt2MENwCAQwLDS/Xc+ViAvhGRPkHfWzMwHAAAAAMCx/3YAAAAAAMBrjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACINm5eCaR3n1y5AAAAAElFTkSuQmCC",
+                "mime_type": "image/png"
+              }
+            ],
+            "result": {
+              "duration": 1196392699,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3381005601,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The user connect database",
+            "match": {
+              "location": "Odometer.the_user_connect_database()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.sql.SQLSyntaxErrorException: SELECT command denied to user \u0027qa_user\u0027@\u002762.20.234.219\u0027 for table \u0027oro_ext_vehiclesodomete\u0027\r\n\tat com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)\r\n\tat com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)\r\n\tat com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)\r\n\tat com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200)\r\n\tat com.vytrack.fleetModule.step_definations.Odometer.the_user_see_all_the_vehicle_odometers(Odometer.java:77)\r\n\tat ✽.The user see all the vehicle odometers(file:src/test/resources/features/odometer.feature:15)\r\n",
+              "duration": 920717100,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "The user see all the vehicle odometers",
+            "match": {
+              "location": "Odometer.the_user_see_all_the_vehicle_odometers()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13700,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Verify that match UI data and Database data",
+            "match": {
+              "location": "Odometer.verify_that_match_UI_data_and_Database_data()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Allnew"
+          },
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-28T08:21:42.473Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9855615800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "",
+        "description": "",
+        "id": "odometer;;create-vehicle-odometer;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1202941200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19139845000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The Truck driver should be in CreateVehicleOdometer page",
+            "match": {
+              "location": "Odometer.the_Truck_driver_should_be_in_CreateVehicleOdometer_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1247469500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The Truck driver should be able to write \"113000\" under the OdometerValue",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"113000\"",
+                  "offset": 41
+                }
+              ],
+              "location": "Odometer.the_Truck_driver_should_be_able_to_write_under_the_OdometerValue(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10728934401,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The Truck driver should be able to write \"Mar 26, 2020\" under the Date",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mar 26, 2020\"",
+                  "offset": 41
+                }
+              ],
+              "location": "Odometer.the_Truck_driver_should_be_able_to_write_under_the_Date(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 283800100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The Truck driver should be able to write \"Fuat Aktümen\" under the Driver",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fuat Aktümen\"",
+                  "offset": 41
+                }
+              ],
+              "location": "Odometer.the_Truck_driver_should_be_able_to_write_under_the_Driver(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5255700900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The Truck driver should be able to select Unit",
+            "match": {
+              "location": "Odometer.the_Truck_driver_should_be_able_to_select_Unit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86199,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The Truck driver should be able to SaveAndClose button",
+            "match": {
+              "location": "Odometer.the_Truck_driver_should_be_able_to_SaveAndClose_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Allnew"
+          },
+          {
+            "name": "@createOdometer"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-28T08:22:30.195Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11943728600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "",
+        "description": "",
+        "id": "odometer;;create-vehicle-odometer;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1181345100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22673794701,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The Truck driver should be in CreateVehicleOdometer page",
+            "match": {
+              "location": "Odometer.the_Truck_driver_should_be_in_CreateVehicleOdometer_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1258654700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The Truck driver should be able to write \"123423\" under the OdometerValue",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123423\"",
+                  "offset": 41
+                }
+              ],
+              "location": "Odometer.the_Truck_driver_should_be_able_to_write_under_the_OdometerValue(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10878753001,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The Truck driver should be able to write \"Mar 26, 2020\" under the Date",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mar 26, 2020\"",
+                  "offset": 41
+                }
+              ],
+              "location": "Odometer.the_Truck_driver_should_be_able_to_write_under_the_Date(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 366463700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The Truck driver should be able to write \"Rukiye Aktümen\" under the Driver",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rukiye Aktümen\"",
+                  "offset": 41
+                }
+              ],
+              "location": "Odometer.the_Truck_driver_should_be_able_to_write_under_the_Driver(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5261458300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The Truck driver should be able to select Unit",
+            "match": {
+              "location": "Odometer.the_Truck_driver_should_be_able_to_select_Unit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The Truck driver should be able to SaveAndClose button",
+            "match": {
+              "location": "Odometer.the_Truck_driver_should_be_able_to_SaveAndClose_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Allnew"
+          },
+          {
+            "name": "@createOdometer"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-28T08:23:23.759Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10689944899,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "",
+        "description": "",
+        "id": "odometer;;create-vehicle-odometer;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1153332200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20840978900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The Truck driver should be in CreateVehicleOdometer page",
+            "match": {
+              "location": "Odometer.the_Truck_driver_should_be_in_CreateVehicleOdometer_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1453505399,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The Truck driver should be able to write \"145678\" under the OdometerValue",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"145678\"",
+                  "offset": 41
+                }
+              ],
+              "location": "Odometer.the_Truck_driver_should_be_able_to_write_under_the_OdometerValue(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10678236700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The Truck driver should be able to write \"Mar 26, 2020\" under the Date",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mar 26, 2020\"",
+                  "offset": 41
+                }
+              ],
+              "location": "Odometer.the_Truck_driver_should_be_able_to_write_under_the_Date(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 337800900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The Truck driver should be able to write \"Akmet Aktümen\" under the Driver",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Akmet Aktümen\"",
+                  "offset": 41
+                }
+              ],
+              "location": "Odometer.the_Truck_driver_should_be_able_to_write_under_the_Driver(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5186169700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The Truck driver should be able to select Unit",
+            "match": {
+              "location": "Odometer.the_Truck_driver_should_be_able_to_select_Unit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61701,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The Truck driver should be able to SaveAndClose button",
+            "match": {
+              "location": "Odometer.the_Truck_driver_should_be_able_to_SaveAndClose_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Allnew"
+          },
+          {
+            "name": "@createOdometer"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-28T08:24:14.102Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10755555201,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "",
+        "description": "",
+        "id": "odometer;;create-vehicle-odometer;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1218417801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19602678101,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The Truck driver should be in CreateVehicleOdometer page",
+            "match": {
+              "location": "Odometer.the_Truck_driver_should_be_in_CreateVehicleOdometer_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1246049001,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The Truck driver should be able to write \"178976\" under the OdometerValue",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"178976\"",
+                  "offset": 41
+                }
+              ],
+              "location": "Odometer.the_Truck_driver_should_be_able_to_write_under_the_OdometerValue(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10960910000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The Truck driver should be able to write \"Mar 26, 2020\" under the Date",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mar 26, 2020\"",
+                  "offset": 41
+                }
+              ],
+              "location": "Odometer.the_Truck_driver_should_be_able_to_write_under_the_Date(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 321575799,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The Truck driver should be able to write \"Tarık Aktümen\" under the Driver",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tarık Aktümen\"",
+                  "offset": 41
+                }
+              ],
+              "location": "Odometer.the_Truck_driver_should_be_able_to_write_under_the_Driver(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5279375201,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The Truck driver should be able to select Unit",
+            "match": {
+              "location": "Odometer.the_Truck_driver_should_be_able_to_select_Unit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The Truck driver should be able to SaveAndClose button",
+            "match": {
+              "location": "Odometer.the_Truck_driver_should_be_able_to_SaveAndClose_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Allnew"
+          },
+          {
+            "name": "@createOdometer"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-28T08:25:03.489Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10221252299,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "",
+        "description": "",
+        "id": "odometer;;create-vehicle-odometer;6",
+        "after": [
+          {
+            "result": {
+              "duration": 1328170900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19220039099,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The Truck driver should be in CreateVehicleOdometer page",
+            "match": {
+              "location": "Odometer.the_Truck_driver_should_be_in_CreateVehicleOdometer_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1383750700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The Truck driver should be able to write \"hgfdssfghhjhhkkjjkj\" under the OdometerValue",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hgfdssfghhjhhkkjjkj\"",
+                  "offset": 41
+                }
+              ],
+              "location": "Odometer.the_Truck_driver_should_be_able_to_write_under_the_OdometerValue(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10889879600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The Truck driver should be able to write \"Mar 26, 2020\" under the Date",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mar 26, 2020\"",
+                  "offset": 41
+                }
+              ],
+              "location": "Odometer.the_Truck_driver_should_be_able_to_write_under_the_Date(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 299083000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The Truck driver should be able to write \"Safiye Aktümen\" under the Driver",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Safiye Aktümen\"",
+                  "offset": 41
+                }
+              ],
+              "location": "Odometer.the_Truck_driver_should_be_able_to_write_under_the_Driver(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5236861401,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The Truck driver should be able to select Unit",
+            "match": {
+              "location": "Odometer.the_Truck_driver_should_be_able_to_select_Unit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122499,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The Truck driver should be able to SaveAndClose button",
+            "match": {
+              "location": "Odometer.the_Truck_driver_should_be_able_to_SaveAndClose_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Allnew"
+          },
+          {
+            "name": "@createOdometer"
+          }
+        ]
+      }
+    ],
+    "name": "Odometer",
+    "description": "",
+    "id": "odometer",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/odometer.feature",
+    "tags": [
+      {
+        "name": "@Allnew",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

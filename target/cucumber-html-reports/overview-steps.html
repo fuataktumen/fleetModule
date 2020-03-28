@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>Cucumber HTML Reports</td>
+        <td>1</td>
+      <td>28 Mar 2020, 01:26</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">Hooks.setUp()</td>
+              <td>7</td>
+              <td class="duration" data-value="11295115285">11.295</td>
+              <td class="duration" data-value="11295115285">14.926</td>
+              <td class="duration" data-value="79065806998">1:19.065</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Hooks.setUpDatabase()</td>
+              <td>1</td>
+              <td class="duration" data-value="122600">0.000</td>
+              <td class="duration" data-value="122600">0.000</td>
+              <td class="duration" data-value="122600">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Hooks.tearDown(Scenario)</td>
+              <td>7</td>
+              <td class="duration" data-value="1216993028">1.216</td>
+              <td class="duration" data-value="1216993028">1.328</td>
+              <td class="duration" data-value="8518951200">8.518</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Hooks.tearDownDatabase()</td>
+              <td>1</td>
+              <td class="duration" data-value="38201799">0.038</td>
+              <td class="duration" data-value="38201799">0.038</td>
+              <td class="duration" data-value="38201799">0.038</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Odometer.the_Truck_driver_should_be_able_to_SaveAndClose_button()</td>
+              <td>5</td>
+              <td class="duration" data-value="76739">0.000</td>
+              <td class="duration" data-value="76739">0.000</td>
+              <td class="duration" data-value="383699">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Odometer.the_Truck_driver_should_be_able_to_login_valid_credentials()</td>
+              <td>1</td>
+              <td class="duration" data-value="10801434000">10.801</td>
+              <td class="duration" data-value="10801434000">10.801</td>
+              <td class="duration" data-value="10801434000">10.801</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Odometer.the_Truck_driver_should_be_able_to_select_Unit()</td>
+              <td>5</td>
+              <td class="duration" data-value="5243913100">5.243</td>
+              <td class="duration" data-value="5243913100">5.279</td>
+              <td class="duration" data-value="26219565502">26.219</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Odometer.the_Truck_driver_should_be_able_to_write_under_the_Date(String)</td>
+              <td>5</td>
+              <td class="duration" data-value="10827342740">10.827</td>
+              <td class="duration" data-value="10827342740">10.960</td>
+              <td class="duration" data-value="54136713702">54.136</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Odometer.the_Truck_driver_should_be_able_to_write_under_the_Driver(String)</td>
+              <td>5</td>
+              <td class="duration" data-value="321744699">0.321</td>
+              <td class="duration" data-value="321744699">0.366</td>
+              <td class="duration" data-value="1608723499">1.608</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Odometer.the_Truck_driver_should_be_able_to_write_under_the_OdometerValue(String)</td>
+              <td>5</td>
+              <td class="duration" data-value="1317885860">1.317</td>
+              <td class="duration" data-value="1317885860">1.453</td>
+              <td class="duration" data-value="6589429300">6.589</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Odometer.the_Truck_driver_should_be_click_Vehicle_Odometer_page_under_the_Fleet()</td>
+              <td>1</td>
+              <td class="duration" data-value="1295552700">1.295</td>
+              <td class="duration" data-value="1295552700">1.295</td>
+              <td class="duration" data-value="1295552700">1.295</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Odometer.the_Truck_driver_should_be_in_CreateVehicleOdometer_page()</td>
+              <td>5</td>
+              <td class="duration" data-value="20295467160">20.295</td>
+              <td class="duration" data-value="20295467160">22.673</td>
+              <td class="duration" data-value="101477335801">1:41.477</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Odometer.the_Truck_driver_should_be_see_all_the_vehicle_odometers()</td>
+              <td>1</td>
+              <td class="duration" data-value="5710758199">5.710</td>
+              <td class="duration" data-value="5710758199">5.710</td>
+              <td class="duration" data-value="5710758199">5.710</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Odometer.the_user_connect_database()</td>
+              <td>1</td>
+              <td class="duration" data-value="3381005601">3.381</td>
+              <td class="duration" data-value="3381005601">3.381</td>
+              <td class="duration" data-value="3381005601">3.381</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Odometer.the_user_see_all_the_vehicle_odometers()</td>
+              <td>1</td>
+              <td class="duration" data-value="920717100">0.920</td>
+              <td class="duration" data-value="920717100">0.920</td>
+              <td class="duration" data-value="920717100">0.920</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Odometer.verify_that_match_UI_data_and_Database_data()</td>
+              <td>1</td>
+              <td class="duration" data-value="13700">0.000</td>
+              <td class="duration" data-value="13700">0.000</td>
+              <td class="duration" data-value="13700">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>16</td>
+            <td>52</td>
+            <td class="duration">5.764</td>
+            <td class="duration">1:41.477</td>
+            <td class="duration">4:59.764</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

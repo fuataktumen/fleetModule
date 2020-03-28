@@ -1,0 +1,5 @@
+com\vytrack\fleetModule\utilities\utilities\BrowserUtils.class
+com\vytrack\fleetModule\utilities\utilities\ConfigurationReader.class
+com\vytrack\fleetModule\utilities\utilities\DBUtils.class
+com\vytrack\fleetModule\utilities\utilities\BrowserUtils$1.class
+com\vytrack\fleetModule\utilities\utilities\Driver.class
