@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         features ="src/test/resources/features" ,
         glue ="com/vytrack/fleetModule/step_definations",
         dryRun =false,
-        tags = "@Allnew"
+        tags = "@Odometer"
 
 )
 

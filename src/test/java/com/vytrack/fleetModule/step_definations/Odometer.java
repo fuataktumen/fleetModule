@@ -74,7 +74,7 @@ public class Odometer {
     public void the_user_see_all_the_vehicle_odometers() throws SQLException {
         Connection connection = DriverManager.getConnection(dbUrl, dbUsername, dbPassword);
         Statement statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
-        ResultSet resultSet = statement.executeQuery("select odometerValue from oro_ext_vehiclesodomete;");
+        ResultSet resultSet = statement.executeQuery("select odometerValue from oro_ext_vehiclesodometer;");
 
 
         resultSet.last();
