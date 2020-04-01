@@ -1,5 +1,5 @@
 
-@Allnew
+@Allnewone
 Feature: Odometer
 
   @Odometer
